@@ -1,0 +1,1114 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 1200px;
+    justify-content: flex-end;
+
+}
+
+.header-raw-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-raw-1 .column-1 {
+    display: flex;
+    align-items: center;
+}
+
+.header-raw-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trafalgar-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #233348;
+    padding-left: 0.5em;
+}
+
+.t-logo {
+    background:#458FF6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 700;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.header-navigation {
+    list-style: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.header-navigation li {
+    display: inline-flex;
+    margin: 0 20px;
+}
+
+.header-navigation a {
+   text-decoration: none;
+   color: #1F1534;
+   opacity: 50%;
+   transition: all .2s ease;
+}
+
+.header-navigation a:hover {
+    font-weight: 700;
+    opacity: 100%;
+    transition: all .2s ease;
+}
+
+.header-text a {
+    text-decoration: none;
+}
+
+.button-consult-today {
+    background:#458FF6;
+    border: #FFFFFF solid 1.4px;
+    border-radius: 28px;
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.button-consult-today:hover {
+    background:#FFFFFF;
+    border: #458FF6 solid 1.4px;
+    border-radius: 28px;
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #458FF6;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.header-text {
+    width: 500px;
+}
+
+.header-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+}
+.header-text p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: column;
+    margin: 8em auto;
+    align-items: center;
+    width: 1240px;
+}
+
+.our-services-raw-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-services-raw-1 h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.our-services-raw-1-rectangle {
+    background-color: #000000;
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+}
+
+.our-services-raw-1 p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+    text-align: center;
+    width: 85%;
+    margin-top: 3%;
+}
+
+.our-services-raw-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.our-services-raw-2 img {
+    width: 400px;
+    transition: all 0.5s ease;
+}
+
+.our-services-raw-2 img:hover {
+    width: 420px;
+    transition: all 0.5s ease;
+}
+
+.our-services-raw-3 a {
+    text-decoration: none;
+}
+
+.button-learn-more, .button-download, .button-view-all {
+    background:#FFFFFF;
+    border: #458FF6 solid 1.4px;
+    border-radius: 28px;
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #458FF6;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.button-learn-more:hover, .button-download:hover, .button-view-all:hover {
+    background:#458FF6;
+    border: #FFFFFF solid 1.4px;
+    border-radius: 28px;
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.leading-healthcare-providers {
+    width: 1200px;
+    display: flex;
+    margin: 16em auto;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.leading-healthcare-providers .text-block {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.leading-healthcare-providers .text-block h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.leading-healthcare-providers .text-block .rectangle {
+    background-color: #000000;
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+}
+
+.leading-healthcare-providers .text-block p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 5%;
+    width: 400px;
+}
+
+.leading-healthcare-providers .text-block .button-learn-more {
+    margin-top: 10%;
+}
+
+.leading-healthcare-providers .text-block a {
+    text-decoration: none;
+}
+
+.download-your-mobile-apps {
+    width: 1200px;
+    display: flex;
+    margin: 16em auto;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.download-your-mobile-apps .text-block {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.download-your-mobile-apps .text-block h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.download-your-mobile-apps .text-block .rectangle {
+    background-color: #000000;
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+}
+
+.download-your-mobile-apps .text-block p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 5%;
+    width: 400px;
+}
+
+.download-your-mobile-apps .text-block .button-download {
+    margin-top: 10%;
+}
+
+.download-your-mobile-apps .text-block a {
+    text-decoration: none;
+}
+
+.carousel-reviews {
+    margin: 0 auto;
+} 
+
+.item {
+    background: linear-gradient(#67C3F3, #5A98F2);
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    border-radius: 24px;
+}
+
+.item .raw-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.item .raw-1 h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.item .raw-1 .rectangle {
+    background-color: #FFFFFF;
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+}
+
+.item .raw-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.item .raw-2 .block-left {
+    display: flex;
+}
+
+.item .raw-2 .block-left .picture img {
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    width: 141px;
+    height: 141px;
+}
+
+.item .raw-2 .block-left .discription {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.item .raw-2 .block-left .discription .name {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.item .raw-2 .block-left .discription .post {
+    color: #FFFFFF;
+    font-size: 18;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.item .raw-2 .block-right {
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 410px;
+}
+
+.owl-nav button {
+    position: absolute;
+    bottom: -1%;
+    opacity: 50%;
+    transition: all .3s ease;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+}
+
+.owl-nav button:hover {
+    background-color: #FFFFFF;
+    opacity: 100%;
+    transition: all .3s ease;
+}
+
+.owl-prev {
+    left: 41%;
+}
+
+.owl-next {
+    right: 41%;
+}
+
+.owl-dots {
+    margin-top: 1.8%;
+}
+
+.owl-carousel span {
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: #5B9BF3 !important;
+    opacity: 50%;
+    display:block;
+    -webkit-backface-visibility:visible;
+    -webkit-transition:opacity 200ms ease;
+    -moz-transition:opacity 200ms ease;
+    -ms-transition:opacity 200ms ease;
+    -o-transition:opacity 200ms ease;
+    transition:opacity 200ms ease;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+
+.owl-carousel span:hover {
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: #5B9BF3 !important;
+    opacity: 100%;
+    display:block;
+    -webkit-backface-visibility:visible;
+    -webkit-transition:opacity 200ms ease;
+    -moz-transition:opacity 200ms ease;
+    -ms-transition:opacity 200ms ease;
+    -o-transition:opacity 200ms ease;
+    transition:opacity 200ms ease;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+
+.owl-carousel .active span {
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: #5B9BF3 !important;
+    opacity: 100%;
+    display:block;
+    -webkit-backface-visibility:visible;
+    -webkit-transition:opacity 200ms ease;
+    -moz-transition:opacity 200ms ease;
+    -ms-transition:opacity 200ms ease;
+    -o-transition:opacity 200ms ease;
+    transition:opacity 200ms ease;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+
+.check-out-our-latest-article {
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    margin: 12em auto;
+    align-items: center;
+}
+
+.check-out-our-latest-article .raw-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check-out-our-latest-article .raw-1 h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.check-out-our-latest-article .raw-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5em;
+}
+
+.check-out-our-latest-article .raw-2 .column-1, .check-out-our-latest-article .raw-2 .column-2, .check-out-our-latest-article .raw-2 .column-3 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 1.9em;
+    box-shadow: 2em 2em 2em 0px #f6f6f6;
+}
+
+.check-out-our-latest-article .raw-2 h1 {
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 251px;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #000000;
+}
+.check-out-our-latest-article .raw-2 p {
+    margin-left: 1.4em;
+    margin-top: 0.1em;
+    width: 266px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.check-out-our-latest-article .raw-2 a {
+    text-decoration: none;
+    margin: 1.6em;
+    margin-top: 0.6em;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #4089ED;
+    transition: all .1s ease;
+    width: 120px;
+}
+
+.check-out-our-latest-article .raw-2 a:hover {
+    font-weight: 750;
+    transition: all .1s ease;
+}
+
+.check-out-our-latest-article .raw-2 .content {
+    width: 350px;
+}
+
+.check-out-our-latest-article .raw-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.check-out-our-latest-article .raw-3 a {
+    text-decoration: none;
+}
+
+footer {
+    height: 432px;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .column-1 {
+    display: flex;
+    flex-direction: column;
+    width: 379px;
+    margin-left: 1em;
+}
+
+footer .column-2, footer .column-3, footer .column-4 {
+    width: 200px;
+}
+
+footer .column-1 .raw-1 {
+    display: flex;
+    align-items: center;
+}
+
+footer .trafalgar-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-left: 0.5em;
+}
+
+footer .t-logo {
+    background:#FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 700;
+    color:#5B9BF3;
+    text-align: center;
+}
+
+footer .column-1 h1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+footer .column-1 h2 {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-top: 2em;
+}
+
+footer .column-2 h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-left: 1.8em;
+}
+
+footer .column-3 h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-left: 1.8em;
+}
+
+footer .column-4 h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-left: 1.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all .4s ease;
+}
+
+footer a:hover {
+    font-weight: 600;
+    transition: all .4s ease;
+}
+
+footer .column-2, .column-3, .column-4, ul {
+    list-style: none;
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+@media (max-width: 1240px) {
+    header {
+        width: 900px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+    }
+
+    header img {
+        width: 400px;
+    }
+
+    .our-services {
+        width: 900px;
+        margin: 6em auto;
+    }
+
+    .our-services-raw-2 img, .our-services-raw-3 img {
+        width: 290px;
+        transition: all 0.5s ease;
+    }
+    
+    .our-services-raw-2 img:hover, .our-services-raw-3 img:hover {
+        width: 305px;
+        transition: all 0.5s ease;
+    }
+
+    .leading-healthcare-providers {
+        margin: 10em auto;
+        width: 900px;
+    }
+
+    .leading-healthcare-providers img{
+        width: 400px;
+    }
+
+    .download-your-mobile-apps {
+        margin: 10em auto;
+        width: 900px;
+    }
+
+    .download-your-mobile-apps img{
+        width: 400px;
+    }
+
+    .item {
+        width: 900px;
+    }
+
+    .check-out-our-latest-article {
+        margin: 8em auto;
+        width: 1000px;
+    }
+
+    .check-out-our-latest-article .raw-3 {
+        margin-top: 3em;
+    }
+
+    footer {
+        justify-content: space-around;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        width: 600px;
+    }
+
+    header .raw-1 {
+        justify-content: center;
+    }
+
+    .header-navigation {
+        text-align: center;
+    }
+
+    .header-navigation li{
+        font-size: 20px;
+    }
+
+    .header-img {
+        width: 300px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .header-text p {
+        font-size: 15px;
+    }
+
+    .our-services {
+        width: 600px;
+    }
+
+    .our-services-raw-2 img, .our-services-raw-3 img {
+        width: 285px;
+        transition: all 0.5s ease;
+    }
+    
+    .our-services-raw-2 img:hover, .our-services-raw-3 img:hover {
+        width: 300px;
+        transition: all 0.5s ease;
+    }
+
+    .our-services-raw-1 h1 {
+        font-size: 30px;
+    }
+
+    .our-services-raw-1 p {
+        font-size: 15px;;
+    }
+
+    .our-services-raw-2 {
+      margin-top: 1em;  
+    }
+
+    .leading-healthcare-providers {
+        width: 600px;
+        flex-direction: column;
+        align-items: center;
+        margin: 6em auto;
+    }
+
+    .leading-healthcare-providers img {
+        width: 300px;
+    }
+
+    .leading-healthcare-providers .text-block h1 {
+        font-size: 30px;
+        justify-content:  center;
+    }
+
+    .leading-healthcare-providers .text-block .rectangle {
+        margin: 0px auto;
+    }
+
+    .leading-healthcare-providers .text-block p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .leading-healthcare-providers .text-block .button-learn-more {
+        margin: 0px auto;
+    }
+
+    .download-your-mobile-apps {
+        width: 600px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 6em auto;
+    }
+
+    .download-your-mobile-apps img {
+        width: 300px;
+    }
+
+    .download-your-mobile-apps .text-block h1 {
+        font-size: 30px;
+        justify-content:  center;
+    }
+
+    .download-your-mobile-apps .text-block .rectangle {
+        margin: 0px auto;
+    }
+
+    .download-your-mobile-apps .text-block p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .download-your-mobile-apps .text-block .button-download {
+        margin: 0px auto;
+    }
+
+    .item {
+        width: 600px;
+    }
+
+    .item .raw-1 {
+        margin-top: 1em;
+    }
+
+    .item .raw-1 h1 {
+        font-size: 30px;
+    }
+
+    .item .raw-2 {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        height: 100px;
+    }
+
+    .item .raw-2 .block-left {
+        align-items: center;
+    }
+
+    .item .raw-2 .block-left .picture img {
+        width: 0px;
+        visibility: hidden;
+    }
+
+    .item .raw-2 .block-left .discription {
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    .item .raw-2 .block-left .discription .name {
+        font-size: 17px;
+    }
+
+    .item .raw-2 .block-left .discription .post {
+        font-size: 15px;
+    }
+
+    .item .raw-2 .block-right {
+        width: 300px;
+    }
+
+    .item .raw-2 .block-right {
+        align-content: center;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .owl-prev {
+        left: 35%;
+    }
+    
+    .owl-next {
+        right: 35%;
+    }
+
+    .check-out-our-latest-article {
+        width: 600px;
+        margin: 6em auto;
+    }
+
+    .check-out-our-latest-article .raw-2 {
+        margin-top: 2em;
+    }
+
+    .check-out-our-latest-article .raw-3 {
+        margin-top: 2em;
+    }
+
+    footer {
+        justify-content: space-around;
+        height: 350px;
+    }
+
+    footer .column-1 {
+        width: 200px;
+    }
+
+    footer .column-2, footer .column-3, footer .column-4 {
+        width: 100px;
+    }
+
+    footer .column-1 h1 {
+        font-size: 14px;
+    }
+
+    footer .column-1 h2{
+        font-size: 12px;
+    }
+
+    footer .column-2 h1 {
+        font-size: 14px;
+    }
+
+    footer .column-3 h1 {
+        font-size: 14px;
+    }
+
+    .footer .column-4 {
+        margin-right: 1em;
+    }
+
+    footer .column-4 h1 {
+        font-size: 14px;
+    }
+
+    footer .column-2, .column-3, .column-4, ul{
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        width: 300px;
+        margin-top: 2em;
+    }
+
+    .header-raw-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-raw-1 .column-1 {
+        justify-content: center;
+    }
+
+    .header-navigation ul {
+        padding: 0;
+    }
+
+    .header-navigation li{
+        font-size: 15px;
+    }
+
+    .header-raw-2 {
+        flex-direction: column-reverse;
+    }
+
+    .header-text {
+        width: 300px;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 25px;
+    }
+
+    .header-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .button-consult-today {
+        margin-left: 3em;
+    }
+
+    .our-services {
+        width: 300px;
+    }
+
+    .our-services-raw-1 h1 {
+        font-size: 25px;
+    }
+
+    .our-services-raw-1 p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .leading-healthcare-providers {
+        width: 300px;
+    }
+
+    .leading-healthcare-providers .text-block {
+        width: 300px;
+        text-align: center;
+    }
+
+    .leading-healthcare-providers .text-block h1 {
+        font-size: 25px;
+    }
+
+    .leading-healthcare-providers .text-block p {
+        width: 300px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .download-your-mobile-apps {
+        width: 300px;
+    }
+
+    .download-your-mobile-apps .text-block {
+        width: 300px;
+        text-align: center;
+    }
+
+    .download-your-mobile-apps .text-block h1 {
+        font-size: 25px;
+    }
+
+    .download-your-mobile-apps .text-block p {
+        width: 300px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .item {
+        width: 300px;
+    }
+
+    .item .raw-1 h1 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .item .raw-2 .block-left .discription .name {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .item .raw-2 .block-left .discription .post {
+        font-size: 10px;
+    }
+
+    .item .raw-2 .block-right {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .owl-prev {
+        left: 20%;
+    }
+    
+    .owl-next {
+        right: 20%;
+    }
+
+    .check-out-our-latest-article {
+        width: 300px;
+    }
+
+    .check-out-our-latest-article .raw-1 {
+        text-align: center;
+    }
+
+    .check-out-our-latest-article .raw-1 h1 {
+        font-size: 25px;
+    }
+
+    .check-out-our-latest-article .raw-2 .column-1 h1, .check-out-our-latest-article .raw-2 .column-2 h1, .check-out-our-latest-article .raw-2 .column-3 h1 {
+        font-size: 17px;
+        width: 200px;
+    }
+
+    .check-out-our-latest-article .raw-2 .column-1 p, .check-out-our-latest-article .raw-2 .column-2 p, .check-out-our-latest-article .raw-2 .column-3 p {
+        font-size: 13px;
+        width: 200px;
+    }
+
+    footer {
+        justify-content: center;
+        height: 350px;
+    }
+
+    footer .column-1{
+        width: 160px;
+        margin-left: 0em;
+    }
+
+    footer .column-2 {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    footer .column-3 {
+        visibility: hidden;
+        width: 0px;
+    }
+    
+    footer .column-4 {
+        width: 100px;
+    }
+}
